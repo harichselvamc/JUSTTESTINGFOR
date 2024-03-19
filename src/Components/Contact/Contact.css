@@ -1,0 +1,98 @@
+.contact{
+    margin-top: 150px;
+}
+.head{
+    font-size:60px;
+    color: #aacf38;
+    text-align: center;
+}
+.top{
+    margin-top: 20px;
+}
+h2{
+    font-size:40px;
+    /* color: #2c2b2b; */
+    text-align: center;
+}
+/* .contact-details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0;
+
+}
+.address,.email,.phone{
+   border: 1px solid #2c2b2b;
+   margin: 16px;
+   width: 350px;
+   height: 350px;
+   padding: 40px 20px;
+   text-align: center;
+   background-color: #aacf38;
+   color: #2c2b2b;
+   border-radius: 20px;
+   transition: 0.4s;
+}
+.address:hover,.email:hover,.phone:hover{
+    border: 1px solid #aacf38;
+    background-color: white;
+    color: #aacf38;
+}
+.address-text h2,.email-text h2,.phone-text h2{
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.add,.mail,.call{
+    font-size:60px;
+    margin-top: 20px
+} */
+.send-message{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  width:30%;
+  padding: 40px;
+  margin: 20px auto;
+  box-shadow: 0 0 20px #dfdfdf;
+  border-radius: 20px;
+}
+
+input::placeholder,textarea::placeholder{
+    font-size: 10px;
+    color: rgb(159, 155, 155);
+}
+.top{
+    margin-top: 20px;
+}
+.send-message .result{
+    color: lightgray;
+    margin-left: 10px;
+}
+.send-message label{
+  font-size: 18px;
+}
+.contact .send-message form input,.contact .send-message form textarea{
+    width: 100%;
+    background: #f4f4f7;
+    border-radius: 8px;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    resize: none;
+}
+
+.reach-details{
+    margin-top: 20px;
+}
+.contact .result{
+    display: block;
+    margin: 20px 0;
+    color: #aacf38;
+    margin-left: 10px;
+}
+.contact .location-details{
+    padding-left: 130px;
+}

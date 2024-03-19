@@ -1,0 +1,45 @@
+.para{
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.about .para{
+    padding: 5%;
+}
+.about .para div{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  margin-bottom: 30px;
+
+}
+.terms{
+   text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.terms h2{
+  padding-bottom: 30px;
+}
+.terms div{
+  padding-left: 200px;
+  text-align: start;
+  margin-bottom: 30px;
+}
+.terms div p{
+  line-height: 40px;
+}
+.about .para div div{
+  max-width: 500px;
+  text-align: start;
+}
+.para img{
+ width: 100px;
+ height: 100px;
+ border: 1px solid black;
+}
+.para span{
+  font-size: 20px;
+  color: #aacf38;
+  font-weight: bold;
+}

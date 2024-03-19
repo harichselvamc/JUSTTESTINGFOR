@@ -1,0 +1,17 @@
+.title{
+    margin-top: 200px;
+}
+h1{
+    font-size: 60px;
+    color: #aacf38;
+    text-align: center;
+}
+@media (max-width:840px) {
+    h1{
+      font-size: 40px;
+    }
+    .title{
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+}

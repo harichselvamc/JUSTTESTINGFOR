@@ -1,0 +1,48 @@
+.scroll-buttons-overlay {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 999;
+}
+
+.scroll-button {
+    width: 40px;
+    height: 40px;
+    background-color: #aacf38;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    transition: 0.3s ease;
+}
+
+.scroll-button:hover {
+    background-color: #555;
+}
+
+.scroll-button-up {
+    margin-bottom: 10px;
+}
+
+.scroll-button-down {
+    margin-bottom: 0;
+}
+@media (max-width:840px) {
+    .scroll-buttons-overlay{
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    z-index: 999;
+}
+.scroll-button {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    border: 1px dashed black;
+}
+}
